@@ -7,7 +7,7 @@ import {
     Service
 } from "@/types/types";
 
-const BASE_URL = 'http://192.168.1.3:5000/api';
+const BASE_URL = 'http://192.168.1.8:5000/api';
 
 async function request<T>(
     path: string,

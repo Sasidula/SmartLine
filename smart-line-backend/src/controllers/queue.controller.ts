@@ -1,11 +1,10 @@
 import { Request, Response } from 'express';
 import { QueueService } from '../services/queue.service';
 
-export const getQueues = async (res: Response) => {
+export const getQueues = async (req: Request, res: Response) => {
     const queues = await QueueService.getAllQueues();
     res.json(queues);
 };
-
 
 
 export const getQueueByService = async (

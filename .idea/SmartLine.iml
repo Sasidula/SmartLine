@@ -12,7 +12,7 @@
       <excludeFolder url="file://$MODULE_DIR$/smart-line-frontend/.expo" />
       <excludeFolder url="file://$MODULE_DIR$/smart-line-frontend/.vscode" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.14" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
